@@ -1,20 +1,175 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- BASIC -->
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="/mine.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>my-pot</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-     <script src="https://cdn.tailwindcss.com"></script> 
-     <script>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <meta name="google-site-verification" content="QWoFcWlJkNoEhZrUEHsQ98MEv6yeNQkm18bGDhQklxA" />
+
+    <!-- TITLE -->
+    <title>
+      Manzi Kelly | Frontend Developer & UI/UX Designer
+    </title>
+
+    <!-- FAVICON -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="/mine.png"
+    />
+
+    <!-- SEO -->
+    <meta
+      name="title"
+      content="Manzi Kelly | Frontend Developer & UI/UX Designer"
+    />
+
+    <meta
+      name="description"
+      content="Manzi Kelly portfolio showcasing modern websites, React applications, UI/UX design, AI systems, and premium digital experiences."
+    />
+
+    <meta
+      name="keywords"
+      content="Manzi Kelly, Frontend Developer, React Developer, UI UX Designer, Portfolio, Web Developer, Tailwind CSS, JavaScript, AI Systems"
+    />
+
+    <meta
+      name="author"
+      content="Manzi Kelly"
+    />
+
+    <meta
+      name="robots"
+      content="index, follow"
+    />
+
+    <!-- THEME -->
+    <meta
+      name="theme-color"
+      content="#4f46e5"
+    />
+
+    <!-- OPEN GRAPH -->
+    <meta
+      property="og:type"
+      content="website"
+    />
+
+    <meta
+      property="og:title"
+      content="Manzi Kelly | Frontend Developer"
+    />
+
+    <meta
+      property="og:description"
+      content="Explore premium digital experiences, modern websites, AI systems, and UI/UX projects built by Manzi Kelly."
+    />
+
+    <meta
+      property="og:image"
+      content="/mine.png"
+    />
+
+    <meta
+      property="og:url"
+      content="https://yourwebsite.com"
+    />
+
+    <!-- TWITTER -->
+    <meta
+      name="twitter:card"
+      content="summary_large_image"
+    />
+
+    <meta
+      name="twitter:title"
+      content="Manzi Kelly | Frontend Developer"
+    />
+
+    <meta
+      name="twitter:description"
+      content="Modern websites, React apps, AI systems, and premium UI/UX experiences."
+    />
+
+    <meta
+      name="twitter:image"
+      content="/mine.png"
+    />
+
+    <!-- FONTS -->
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- TAILWIND -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
       tailwind.config = {
         darkMode: "class",
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ["Inter", "sans-serif"],
+            },
+          },
+        },
       };
     </script>
 
+    <!-- SMOOTH SCROLL -->
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        font-family: "Inter", sans-serif;
+        background: #ffffff;
+      }
+
+      ::selection {
+        background: #4f46e5;
+        color: white;
+      }
+
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background: #0f172a;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background: #4f46e5;
+        border-radius: 999px;
+      }
+    </style>
+  </head>
+
+  <body class="bg-white dark:bg-[#020617] transition-colors duration-300">
+    <div id="root"></div>
+
+    <script
+      type="module"
+      src="/src/main.jsx"
+    ></script>
   </body>
 </html>
